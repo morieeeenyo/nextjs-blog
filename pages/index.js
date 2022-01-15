@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Alert from "../components/alert";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 
@@ -15,6 +16,9 @@ export default function Home() {
           <a>this page!</a>
         </Link>
       </h1>
+      <Alert type={"error"}>
+        <h1>hello</h1>
+      </Alert>
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
         <p>

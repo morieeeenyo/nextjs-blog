@@ -9,6 +9,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <img src="/images/profile.jpg" alt="Your Name" />
+
       <main>
         <h1 className="title">
           Read{' '}
